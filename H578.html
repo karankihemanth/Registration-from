@@ -1,0 +1,50 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=display-width,intial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title for="Sports Academy Registration">Sports Academy Registration</title>
+  </head>
+  <body>
+   <div> 
+     <h1 id="title">Sports Academy Registration</h1>
+     <p id="description">Please fill the form for registration</p>
+     <form id="survey-form">
+     <fieldset>
+       <legend>Details of the player</legend>
+       <label for="name" id="name-label">Name of the Player :<input type="text" id="name" placeholder="Name" required></label>
+       <label for="email" id="email-label">Email :<input type="email" id="email" placeholder="email" required></label>
+       <label for="age" id="number-label">Age :<input type="number" id="age" placeholder="Age" required></label>
+       <label for="number">phone Number :<input type="tel" id="number" placeholder="phoneNumber" required></label>
+     <label for="sex">Choose Gender:</br>
+     <input type="radio" name="sex" id="sex" value="male" checked> Male
+     <input  type="radio" name="sex" value="female" id="sex"> Female
+     <input type="radio" name="sex" value="other" id="sex">Other</label>
+     </fieldset>
+     <fieldset><legend>upload your sports certificates</legend>
+     <label for="file">
+     <input type="file" id=file>
+     </label>
+     <label for="dropdowm">Where sis you here about us:<select id="dropdown"><option>select</option>
+     <option>Instagram</option>
+     <option>Facebook</option>
+     <option>Google Ads</option>
+     <option>Other Websities</option>
+     </select>
+     </label>
+     <label for="sport">
+     Choose the Sports that you preferred for training:
+     </br><input type="checkbox" name="cricket" value="sport">Cricket</br>
+       <input type="checkbox" name="kabbadi" value="sport">Kabbadi</br>
+       <input type="checkbox" name="Badminton" value="sport">Badminton</br>
+       <input type="checkbox" name="Mixed Martial Arts" value="sport">Mixwd Martial Arts</br>
+       </label>
+       <label for="Bio">Tell me about you:
+       <textarea id="bio">wow...</textarea>
+     </fieldset>
+     <label for="submit"><input type="submit" id="submit"></label>
+     </form>
+   </div>
+    </body>
+</html>
